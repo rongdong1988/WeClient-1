@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:orientation="vertical">
+
+    <com.suan.weclient.view.ptr.PTRListview
+        android:id="@+id/chat_layout_list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="#e4e4e4"
+        android:divider="@null"
+        android:transcriptMode="normal" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="55dip"
+            android:background="#f9f9f9">
+
+            <ImageButton
+                android:id="@+id/chat_button_expression"
+                android:layout_width="50dip"
+                android:layout_height="fill_parent"
+                android:visibility="gone"
+                android:background="@drawable/ic_launcher" />
+
+            <EditText
+                android:id="@+id/chat_edit_edit"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/chat_edit_content_bg"
+                android:layout_marginTop="5dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginBottom="5dip"
+                android:paddingTop="8dip"
+                android:paddingBottom="8dip"
+                android:paddingLeft="15dip"
+                android:paddingRight="15dip"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/chat_button_send" android:layout_width="70dip"
+                android:background="@drawable/chat_send_button_bg"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_height="fill_parent"
+                android:textSize="15dip"
+                android:textColor="#a1a1a1"
+                android:text="@string/send"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

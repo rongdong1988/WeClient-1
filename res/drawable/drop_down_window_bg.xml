@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+	<item>
+		<shape>
+			<padding
+				android:bottom="4dip"
+				android:left="4dip"
+				android:right="4dip"
+				android:top="4dip" />
+			<solid android:color="@color/drop_window_background_color" />
+			<corners android:radius="4dip"/>
+		</shape>
+	</item>
+		
+</layer-list>
