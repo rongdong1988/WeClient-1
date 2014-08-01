@@ -1,5 +1,6 @@
 ##公众平台小助手(WeClient)
 
+注意腾讯已经更换验证方法,这个版本已经无法登陆
 ###再分发说明
 ===========
 ***代码说明***
@@ -72,4 +73,3 @@ GNU General Public License for more details.
 
   You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
